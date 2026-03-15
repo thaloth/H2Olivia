@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Iceberg&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@layer base{
+   h1 {
+    font-family: "Iceberg", sans-serif;
+    color: #47678C;
+   } 
+
+   body {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+   }
+}

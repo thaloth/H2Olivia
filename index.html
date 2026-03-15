@@ -1,156 +1,306 @@
 <!doctype html>
 <html>
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="src/output.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Iceberg&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link href="src/output.css" rel="stylesheet">
 </head>
+
 <body>
-  <header class=" h-20  bg-[#4B83B1]">
-    <div class="flex justify-between items-center h-full w-[90%] mx-auto">
-        <div>
-            <img src="" alt="LOGO">
-        </div>
-        <div>
-            <nav>
-                <ul class="flex gap-10">
-                    <li><a href="" class="font-bold text-2xl">Home</a></li>
-                    <li><a href="" class="font-bold text-2xl">About</a></li>
-                    <li><a href="" class="font-bold text-2xl">Try</a></li>
-                    <li><a href="" class="font-bold text-2xl">Filtration</a></li>
-                    <li><a href="" class="font-bold text-2xl">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div>
-            <button class="bg-blue-500 text-white px-4 py-2 rounded">
-                Order Now
-            </button>
-        </div>
-    </div>
-  </header>
-  <main>
-    <section class="h-220 bg-cover bg-center" style="background-image: url(src/waterbg.png);">
-        <div class="flex justify-between items-center w-[85%] mx-auto h-full">
-            <div class="w-1/2  flex items-center justify-center">
-                <img src="src/h2olivialogo.png" alt="">
+    <header class=" h-20  bg-[#4B83B1]  w-full fixed">
+        <div class="flex justify-between items-center h-full w-[90%] mx-auto">
+            <div>
+                <img src="" alt="LOGO">
             </div>
+            <div>
+                <nav>
+                    <ul class="flex gap-10 text-[#616161]">
+                        <li><a href="" class="font-bold text-2xl">Home</a></li>
+                        <li><a href="" class="font-bold text-2xl">About</a></li>
+                        <li><a href="" class="font-bold text-2xl">Try</a></li>
+                        <li><a href="" class="font-bold text-2xl">Filtration</a></li>
+                        <li><a href="" class="font-bold text-2xl">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <button class="bg-[#4B5E8D] text-white px-4 py-2 rounded-md border-2 font-bold border-[#767676]">
+                    Order Now
+                </button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="h-260 bg-cover bg-center" style="background-image: url(src/waterbg.png);">
+            <div class="flex justify-between items-center w-[85%] mx-auto h-full">
+                <div class="w-1/2  flex items-center justify-center">
+                    <img src="src/h2olivialogo.png" alt="">
+                </div>
                 <div class="text-right w-1/2 text-blue-950 ">
                     <h1 class=" text-7xl">Hello world!</h1>
                     <h1 class="text-7xl">hello</h1>
                     <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil voluptates odio ad eaque exercitationem quas
-                        officia, quo harum laborum praesentium cupiditate adipisci assumenda vero illum velit vitae dolore, 
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil voluptates odio ad eaque
+                        exercitationem quas
+                        officia, quo harum laborum praesentium cupiditate adipisci assumenda vero illum velit vitae
+                        dolore,
                         cum corporis.
                     </p>
-                    <button class="bg-blue-500 text-white px-4 py-2 rounded mt-4">
+                    <button class="bg-[#4B5E8D] text-white px-4 py-2 rounded mt-4 font-bold border-2 border-[#767676]">
                         Order Now
                 </div>
             </div>
-        </div>
-    </section>
-    <section>
-        <div class="w-[85%] mx-auto py-10">
-            <h1 class="text-4xl font-bold text-center mb-6">About Us</h1>
-             <p class="text-center mb-10">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, 
+            </div>
+        </section>
+        <section class="bg-[#F9FAFC]">
+            <div class="w-[85%] mx-auto py-10">
+                <p class="text-center text-[#4B83B1]">H2Olivia</p>
+                <h1 class="text-4xl font-bold text-center">About Us</h1>
+                <p class="text-center mb-10">
+                    Lorem ipsum dolor sit amet.
+                </p>
+                <div class="grid grid-cols-3 gap-6">
+                    <div class="mx-auto shadow-lg pb-5">
+                        <div class="h-75">
+                            <img src="src/water1.png" alt="" class="bg-full bg-center h-full w-full rounded-t-md">
+                        </div>
+                        <h1 class="text-xl font-bold mb-2 text-[#4B83B1] p-4">Superior Filtration & Quality</h1>
+                        <p class="text-center text-balance">
+                             Our advanced multi-stage filtration process removes all impurities, bacteria, and contaminants. 
+                             We don't just provide water; we provide peace of mind in every drop. 
+                             Say goodbye to "tubig tabang" and hello to the cleanest refreshment.
+                        </p>
+                    </div>
+                    <div class="mx-auto shadow-lg">
+                        <div class="h-75">
+                            <img src="src/water2.jpg" alt="" class="bg-full bg-center h-full w-full rounded-t-md">
+                        </div>
+                        <h1 class="text-xl font-bold mb-2 text-[#4B83B1] p-4">Mineral Rich</h1>
+                        <p class="text-center text-balance">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
+                            doloremque.
+                        </p>
+                    </div>
+                    <div class="mx-auto shadow-lg">
+                        <div class="h-75">
+                            <img src="src/water3.jpg" alt="" class="bg-full bg-center h-full w-full rounded-t-md">
+                        </div>
+                        <h1 class="text-xl font-bold mb-2 text-[#4B83B1] p-4">Reliable Delivery & Service</h1>
+                        <p class="text-center text-balance">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
+                            doloremque.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-[blue] h-190 flex flex-col justify-center items-center">
+            <p class="text-center text-[#4B83B1]">TRY NOW</p>
+            <h1 class="text-4xl font-bold text-center">TRY H2Olivia Now</h1>
+            <p class="text-center mb-10">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
                 doloremque. Voluptas, doloremque.
             </p>
-            <div class="grid grid-cols-3 gap-6">
-                <div class="bg-gray-200 p-4 rounded h-130">
-                    <div class="h-75">
-                        <img src="src/water1.png" alt="" class="bg-full bg-center h-full w-full">
+            <div class="flex justify-between w-[60%] mx-auto h-70 gap-5">
+                <div class="bg-[#4B83B1] h-full w-[50%] rounded-md">
+                    <div class="flex justify-between w-[85%] mx-auto mt-10">
+                        <div>
+                            <h2 class="text-2xl font-bold">Contact Us</h2>
+                        </div>
+                        <div>
+                            <img src="" alt="logo">
+                        </div>
                     </div>
-                    <h1 class="text-xl font-bold mb-2 text-blue-400">Superior Filtration & Quality</h1>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, 
-                        doloremque.
-                    </p>
+                    <div class="flex justify-center items-center h-50 w-[85%] mx-auto">
+                        <p class="text-center">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Voluptate animi fugiat optio accusantium quos debitis perspiciatis
+                            provident amet et rem nam, corporis, est officiis placeat cumque
+                            quisquam neque, voluptatum non.
+                        </p>
+                    </div>
                 </div>
-                <div class="bg-gray-200 p-4 rounded">
-                    <div class="h-75">
-                        <img src="src/water2.jpg" alt="" class="bg-full bg-center h-full w-full">
-                    </div>
-                    <h1 class="text-xl font-bold mb-2 text-blue-400">Mineral Rich</h1>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, 
-                        doloremque.
-                    </p>
-                </div>
-                <div class="bg-gray-200 p-4 rounded">
-                    <div class="h-75">
-                        <img src="src/water3.jpg" alt="" class="bg-full bg-center h-full w-full">
-                    </div>
-                    <h1 class="text-xl font-bold mb-2 text-blue-400">Reliable Delivery & Service</h1>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, 
-                        doloremque.
-                    </p>
+                <div class="bg-blue-200 h-full w-[50%] flex items-center justify-center rounded-md">
+                    2
                 </div>
             </div>
-        </div>
-    </section>
-    <section class="bg-no-repeat bg-center bg-cover h-190 flex flex-col justify-center items-center" style="background-image: url(src/pngtree-water.png);">
-        <h1 class="text-center">TRY NOW</h1>
-        <h1 class="text-4xl font-bold text-center mb-6">About Us</h1>
-             <p class="text-center mb-10">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, 
+            <div class="h-70 bg-red-500 mt-5 mx-auto w-[30%] rounded-md flex justify-center items-center">3</div>
+        </section>
+        <section class="bg-emerald-500 h-200 flex justify-center">
+            <div class="flex justify-between items-center gap-100">
+                <div>
+                     <h1 class="text-9xl">
+                        vission
+                    </h1>
+                </div>
+                <div>
+                    <h1 class="text-9xl">
+                        mission
+                    </h1>
+                </div>
+            </div>
+        </section>
+        <section class=" bg-gray-200 flex flex-col items-center w-[85%] mx-auto rounded-md mt-5 mb-5 p-5">
+            <h1 class="text-center mt-5">TRY NOW</h1>
+            <h1 class="text-4xl font-bold text-center mb-6">About Us</h1>
+            <p class="text-center mb-10 text-wrap">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
                 doloremque. Voluptas, doloremque.
-            </p>    
-        <div class="flex justify-between w-[60%] mx-auto h-70 gap-5">
-            <div class="bg-emerald-200 h-full w-[50%]">
-                <div class="flex justify-between w-[85%] mx-auto mt-5">
-                    <div>
-                        <h1>Contact</h1>
-                    </div> 
-                    <div>
-                        <img src="" alt="logo">
+            </p>
+            <div class="flex justify-between items-center w-[90%] mx-auto p-5">
+                <div class="flex justify-center w-[50%] mx-auto mt-5 ">
+                    <div class=" bg-blue-300 w-[75%]">
+                        <h1 class="text-3xl font-bold">Multi Stage System(The body Guard)</h1>
+                        <p class="text-left text-2xl">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Pariatur cum consequatur eius minima, obcaecati ratione deleniti
+                            fugiat veniam facere tempore sapiente voluptatem voluptatibus
+                            maiores modi qui eveniet ipsa quis nam?
+                        </p>
+                        <ul class="space-y-2">
+                            <li class="flex items-center gap-2 text-2xl">
+                                <img src="/icon.png " class="w-4 h-4">
+                                List 1
+                            </li>
+
+                            <li class="flex items-center gap-2 text-2xl">
+                                <img src="/icon.png" class="w-4 h-4">
+                                List 2
+                            </li>
+
+                            <li class="flex items-center gap-2 text-2xl">
+                                <img src="/icon.png" class="w-4 h-4">
+                                List 3
+                            </li>
+                        </ul>
                     </div>
                 </div>
-                <div class="flex justify-center items-center bg-blue-950 h-50 w-[85%] mx-auto mt-5 rounded">
-                    <p class="text-center">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Voluptate animi fugiat optio accusantium quos debitis perspiciatis 
-                        provident amet et rem nam, corporis, est officiis placeat cumque 
-                        quisquam neque, voluptatum non. 
-                    </p>
+                <div class="h-full w-[50%] flex items-center justify-center">
+                    <div class="h-[90%] w-[90%] mx-auto">
+                        <img src="src/Filtrationpic1.jpg" alt="image" class="h-100 w-7xl  rounded-md">
+                    </div>
                 </div>
             </div>
-            <div class="bg-blue-200 h-full w-[50%] flex items-center justify-center">
-                2
-            </div>
-        </div>
-        <div class="h-70 bg-red-500 mt-5 mx-auto w-[30%]">3</div>
-    </section>
-    <section class="h-100 bg-gray-200 flex justify-center items-center w-[85%] mx-auto mt-10">
+            <div class="flex justify-between flex-row-reverse items-center w-[90%] mx-auto p-5">
+                <div class="flex justify-center w-[50%] mx-auto mt-5">
+                    <div class=" bg-blue-300 w-[75%]">
+                        <h1 class="text-3xl font-bold">Reverse Osmosis:The Smart Filter</h1>
+                        <p class="text-left text-2xl">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Pariatur cum consequatur eius minima, obcaecati ratione deleniti
+                            fugiat veniam facere tempore sapiente voluptatem voluptatibus
+                            maiores modi qui eveniet ipsa quis nam?
+                        </p>
+                        <ul class="space-y-2">
+                            <li class="flex items-center gap-2 text-2xl">
+                                <img src="/icon.png " class="w-4 h-4">
+                                List 1
+                            </li>
 
-        <div class="flex justify-between w-[85%] mx-auto mt-5">
-            <div class="text bg-blue-300">
-                <h1>Contact</h1>
-                <p>Lorem ipsum dolor sit amet.</p>
+                            <li class="flex items-center gap-2 text-2xl">
+                                <img src="/icon.png" class="w-4 h-4">
+                                List 2
+                            </li>
+
+                            <li class="flex items-center gap-2 text-2xl">
+                                <img src="/icon.png" class="w-4 h-4">
+                                List 3
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="h-full w-[50%] flex items-center justify-center">
+                    <div class="h-[90%] w-[90%] mx-auto">
+                        <img src="src/Filtrationpic2.jpg" alt="image" class="h-100 w-7xl  rounded-md">
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-between items-center w-[90%] mx-auto p-5">
+                <div class="flex justify-center w-[50%] mx-auto mt-5">
+                    <div class=" bg-blue-300 w-[75%]">
+                        <h1 class="text-3xl font-bold">Toxins Out Mineral In</h1>
+                        <p class="text-left text-2xl">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Pariatur cum consequatur eius minima, obcaecati ratione deleniti
+                            fugiat veniam facere tempore sapiente voluptatem voluptatibus
+                            maiores modi qui eveniet ipsa quis nam?
+                        </p>
+                        <ul class="space-y-2">
+                            <li class="flex items-center gap-2 text-2xl">
+                                <img src="/icon.png " class="w-4 h-4">
+                                List 1
+                            </li>
+
+                            <li class="flex items-center gap-2 text-2xl">
+                                <img src="/icon.png" class="w-4 h-4">
+                                List 2
+                            </li>
+
+                            <li class="flex items-center gap-2 text-2xl">
+                                <img src="/icon.png" class="w-4 h-4">
+                                List 3
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="h-full w-[50%] flex items-center justify-center">
+                    <div class="h-[90%] w-[90%] mx-auto">
+                        <img src="src/Filtrationpic3.jpg" alt="image" class="h-100 w-7xl  rounded-md">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="h-auto bg-[#4B83B1] flex flex-col items-center">
+        <div class="flex justify-between items-center w-[90%] mx-auto text-white">
+            <div class="w-[50%]">
+                <ul class="space-y-2">
+                    <li class="flex items-center gap-2">
+                        <img src="/icon.png " class="w-4 h-4">
+                        Kapit bahay daw  nina Gian Estrella
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <img src="/icon.png" class="w-4 h-4">
+                        2beeeegun@gmail.com
+                    </li>
+                    <li class="flex items-center gap-2">
+                        <img src="/icon.png" class="w-4 h-4">
+                        +63 917 845 6231
+                    <li class="flex items-center gap-2">
+                        <img src="/icon.png" class="w-4 h-4">
+                        Opening Hours: 8:00 AM – 9:00 PM (Monday – Sunday)
+                    <li class="flex items-center gap-2">
+                        <img src="/icon.png" class="w-4 h-4">
+                        www.H2Olivia.com 
+                </ul>
+            </div>
+            <div class="w-[50%]">
+                                <p class="w-[10%] ">
+                    ⣿⣿⣿⣿⣿⣿⠿⢋⣥⣴⣶⣶⣶⣬⣙⠻⠟⣋⣭⣭⣭⣭⡙⠻⣿⣿⣿⣿⣿ 
+                    ⣿⣿⣿⣿⡿⢋⣴⣿⣿⠿⢟⣛⣛⣛⠿⢷⡹⣿⣿⣿⣿⣿⣿⣆⠹⣿⣿⣿⣿ 
+                    ⣿⣿⣿⡿⢁⣾⣿⣿⣴⣿⣿⣿⣿⠿⠿⠷⠥⠱⣶⣶⣶⣶⡶⠮⠤⣌⡙⢿⣿ 
+                    ⣿⡿⢛⡁⣾⣿⣿⣿⡿⢟⡫⢕⣪⡭⠥⢭⣭⣉⡂⣉⡒⣤⡭⡉⠩⣥⣰⠂⠹ 
+                    ⡟⢠⣿⣱⣿⣿⣿⣏⣛⢲⣾⣿⠃⠄⠐⠈⣿⣿⣿⣿⣿⣿⠄⠁⠃⢸⣿⣿⡧ 
+                    ⢠⣿⣿⣿⣿⣿⣿⣿⣿⣇⣊⠙⠳⠤⠤⠾⣟⠛⠍⣹⣛⣛⣢⣀⣠⣛⡯⢉⣰ 
+                    ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡶⠶⢒⣠⣼⣿⣿⣛⠻⠛⢛⣛⠉⣴⣿⣿ 
+                    ⣿⣿⣿⣿⣿⣿⣿⡿⢛⡛⢿⣿⣿⣶⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡈⢿⣿ 
+                    ⣿⣿⣿⣿⣿⣿⣿⠸⣿⡻⢷⣍⣛⠻⠿⠿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⢇⡘⣿ 
+                    ⣿⣿⣿⣿⣿⣿⣿⣷⣝⠻⠶⣬⣍⣛⣛⠓⠶⠶⠶⠤⠬⠭⠤⠶⠶⠞⠛⣡⣿ 
+                    ⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⣶⣬⣭⣍⣙⣛⣛⣛⠛⠛⠛⠿⠿⠿⠛⣠⣿⣿ 
+                    ⣦⣈⠉⢛⠻⠿⠿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠿⠛⣁⣴⣾⣿⣿⣿⣿ 
+                    ⣿⣿⣿⣶⣮⣭⣁⣒⣒⣒⠂⠠⠬⠭⠭⠭⢀⣀⣠⣄⡘⠿⣿⣿⣿⣿⣿⣿⣿ 
+                    ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣦⡈⢿⣿⣿⣿⣿⣿  
+                </p>
+                <img src="" alt="image here">
             </div>
         </div>
-        <div class="bg-blue-800">
-            <img src="" alt="image">
+        <div class="w-full">
+            <p class="border-t-2 text-center">&copy; 2025 H2WOlivia. All rights reserved.</p>
         </div>
-    </section>
-  </main>
-  <footer class="h-50 bg-[#4B83B1] flex flex-col items-center">
-    <div class="flex justify-between items-center w-[90%] mx-auto text-white">
-        <div>
-            <h1 class="text-2xl font-bold">H2WOlivia</h1>
-            <h1 class="text-2xl font-bold">H2WOlivia</h1>
-            <h1 class="text-2xl font-bold">H2WOlivua</h1>
-            <h1 class="text-2xl font-bold">H2WOlivia</h1>
-            <h1 class="text-2xl font-bold">H2WOlivia</h1>
-        </div>
-        <div>
-            <img src="" alt="image here">
-        </div>
-    </div>
-    <div>
-        <p  class="border-t-2">&copy; 2024 H2WOlivia. All rights reserved.</p>
-    </div>
-  </footer>
+    </footer>
 </body>
-</html>
+</html>     
